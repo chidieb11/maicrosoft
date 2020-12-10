@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+/* colors */
+:root{
+    --primary: rgb(34, 134, 187);
+    --secondary: lightgrey;
+    --success: green;
+    --danger: red;
+    --dark: #24252a;
+    --grey: grey;
+    --light: white;
+}
+/* Navbar */
+.nav .grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav h3 a{
+    color: var(--grey);
+    font-weight: 500;
+}
+
+.nav .grid li a{
+    text-decoration: none;
+    font-weight: 400;
+    color: var(--dark);
+    cursor: pointer;
+}
+
+.nav .grid li a:hover{
+    font-weight: 800;
+    border-bottom: 1px solid var(--dark);
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.nav li{
+    padding: 10px;
+}
+
+.nav-sub-heading span{
+    padding: 10px;
+    align-items: center;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.nav .grid .logo img{
+    font-size: 14px;
+}
+
+.nav-sub-heading span:hover{
+    font-weight: 800;
+    border-bottom: 1px solid var(--dark);
+}
+
+/* Head */
+.head .container{
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.head .grid p > *:first-child{
+    width: 100%;
+    background-color: var(--primary);
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--light);
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.head .grid .title{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 40px;
+    background-image: url('images/meets.jpg');
+    border-radius: 10px 10px 0 0;
+}
+
+.head .grid .title .header h2{
+    font-weight: 1000;
+}
+
+.head .grid .title .header p{
+    font-weight: 800;
+}
+
+.head-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.head-image {
+    padding: 30px;
+    margin: 10px 10px;
+}
+
+.head .grid > a{
+    text-decoration: none;
+    padding: 30px;
+    align-items: center;
+    color: var(--dark);
+}
+
+.header button{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header button:hover{
+    font-weight: 1000;
+}
+
+/* Sub-heading */
+.sub-heading{
+    margin-top: 10px;
+    object-fit: cover;
+    margin-bottom: 60px;
+} 
+
+.sub-heading .grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 10%;
+}
+
+.sub-heading .grid img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.sub-heading .grid h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.sub-heading .grid p{
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.sub-heading .grid button{
+    background-color: var(--dark);
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+}
+
+.sub-heading .grid button:hover{
+    font-weight: 1000;
+}
+
+.sub-heading .grid button a{
+    color: var(--light);
+    text-decoration: none;
+}
+
+/* Third-column */
+.third-column .grid{
+    background-image: url('images/Vision.jpg');
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 50px;
+    color: var(--dark);
+    margin-bottom: 5%;
+    width: 100%;
+    height: 100%;
+}
+
+.third-column .grid button{
+    background-color: var(--dark);
+    color: var(--light);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.third-column .grid button:hover{
+    font-weight: 1000;
+}
+
+.third-column .div-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.sub-heading .ion-icon{
+    font-size: 20px;
+    font-weight: 600;
+    align-items: center;
+}
+
+/* Last-section */
+.last-section{
+    margin-top: 10px;
+    object-fit: cover;
+    margin-bottom: 60px;
+} 
+
+.last-section .grid h3{
+    margin-top: 10px auto;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.last-section .grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.last-section .grid img{
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.last-section .grid p{
+    font-weight: 300;
+}
+
+.last-section .grid button{
+    background-color: var(--dark);
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+}
+
+.last-section .grid button:hover{
+    font-weight: 1000;
+}
+
+.last-section .grid button a{
+    color: var(--light);
+    text-decoration: none;
+}
+
+/* socials */
+.last-section .grid .socials-class .ion-icon ion-icon{
+    color: var(--dark);
+    font-size: 30px;
+}
+
+/* Footer */
+footer{
+    background-color: var(--secondary);
+    padding: 30px;
+}
+footer .grid{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+footer .grid h3{
+    font-size: 20px;
+}
+
+footer .grid ul a{
+    color: var(--dark);
+}

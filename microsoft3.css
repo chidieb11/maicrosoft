@@ -1,0 +1,157 @@
+/* colors */
+:root{
+    --primary: rgb(34, 134, 187);
+    --secondary: lightgrey;
+    --success: green;
+    --danger: red;
+    --dark: #24252a;
+    --grey: grey;
+    --light: white;
+}
+
+/* Class head */
+.class_head{
+    background-image: url('images/roots.jpg');
+    width: 100%;
+    overflow: hidden;
+}
+
+.class_head p > *:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.class_head .first_paragraph a{
+    background-color: var(--primary);
+    color: var(--light);
+    padding: 10px;
+}
+
+.class_head .grid{
+    margin-top: 70px;
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.class_head .grid .first-title{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.class_head .grid .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.class_head .grid button{
+    width: 100%;
+    padding: 10px;
+    margin: 50px;
+    border: 1px solid var(--light);
+    background-color: var(--primary);
+    color: var(--light);
+    border-radius: 5px;
+    outline: none;
+}
+
+.class_head .grid button:hover{
+    box-shadow: 1em var(--lightgrey);
+}
+
+
+
+.class_head .grid .sign_in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.class_head .grid .sign_in p{
+    margin-top: 2px;
+}
+
+/* Middle-section */
+.middle_section .grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+/* Fourth-section */
+.fourth_section .grid video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    outline: none;
+    border: none;
+    margin-bottom: 10%;
+}
+
+/* Last-section */
+.last_section{
+    background-color: var(--secondary);
+}
+
+.last_section .grid{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.last_section .grid > h1{
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+.last_section .grid .description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.last_section .grid .description ion-icon{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.last_section .grid .description h3{
+    font-size: 18px;
+}
+
+/* socials */
+.socials .grid{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.socials .grid ion-icon{
+    font-size: 30px;
+    color: var(--dark);
+    padding: 10px;
+}
